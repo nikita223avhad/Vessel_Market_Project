@@ -1,0 +1,16 @@
+# Frontend
+vessel-market-frontend/node_modules/
+vessel-market-frontend/dist/
+
+# Backend
+backend/.env
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+
+# General
+.env
+node_modules/
+__pycache__/
+*.py[cod]
+.vscode/
