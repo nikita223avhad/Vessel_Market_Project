@@ -1,0 +1,54 @@
+Backend/
+├── app/
+│   ├── routers/
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   ├── vessels.py
+│   │   ├── market_data.py
+│   │   ├── reports.py
+│   │   └── __init__.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   └── dependencies.py
+│   │
+│   ├── db/
+│   │   ├── session.py
+│   │   ├── base.py
+│   │   └── init_db.py
+│   │
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── vessel.py
+│   │   ├── market_data.py
+│   │   └── report.py
+│   │
+│   ├── schemas/
+│   │   ├── auth.py
+│   │   ├── user.py
+│   │   ├── vessel.py
+│   │   ├── market_data.py
+│   │   └── report.py
+│   │
+│   ├── services/
+│   │   ├── auth_service.py
+│   │   ├── vessel_service.py
+│   │   ├── pricing_service.py
+│   │   └── report_service.py
+│   │
+│   ├── repositories/
+│   │   ├── user_repository.py
+│   │   ├── vessel_repository.py
+│   │   └── market_data_repository.py
+│   │
+│   ├── utils/
+│   │   └── helpers.py
+│   │
+│   └── main.py
+│
+├── alembic/
+├── tests/
+├── .env
+├── requirements.txt
+└── alembic.ini
